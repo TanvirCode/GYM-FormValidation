@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<!--Starting the head-->
+<head>
+
+<!--starting the title-->
+<title>Tanvir's GYM</title>
+
+<!--Starting the Script for the Image Rollover-->
+<script>
+//image rollover for people who changed their body shapes
+var normal = new Image;
+var transform = new Image;
+function startup()
+{normal.src = "normal.jpg";
+transform.src = "transform.jpg";
+return;}
+
+function turnNormal()
+{document.arrow.src = normal.src;
+return;}
+
+function turnTransform()
+{document.arrow.src = transform.src;
+return;}
+
+<!--Ending the script-->
+</script>
+
+<!--Ending the head-->
+</head>
+
+
+
+<!--Starting the body-->
+<!--Background Color-->
+<body background="backG1.jpg" style="background-size:1440px" onLoad="startup()">
+
+<!--link that brings you back to the top-->
+<h3 id="top"> </h3>
+
+<!--Top of the Page-->
+<h1 style="text-align:center;font-size:50px"> Tanvir's GYM </h1>
+<h2 style="text-align:center;font-size:34px"> Work on Yourself </h2>
+
+<!--Sentence going from right to left-->
+<p style="font-size:25px;background-color:#4d94ff; color:#000000"><marquee direction = "left"> Need Motivation? What's Stopping You? Join OUR Gym </marquee></p>
+
+<hr>
+
+<!--Image of a Gym Floor-->
+<p style="text-align:center"><img src="introPic1.jpg" width="880" height="565" alt="Picture of a GYM."/></p>
+
+<!--Horizontal line-->
+<hr>
+<!--Breaking line-->
+</br>
+
+
+<!--About us/know us paragraph-->
+<h2 id="about" style="text-align:center;font-size:34px">Know About Us</h2>
+<p style="font-size:25px"> We are the best at what you want and how you want your gym to be. All  members of Tanvir's gym have unlimited access to their home facility and are always supported by our helpful and welcoming staff members. We are open to different kinds of offers or packages to provide you the best deal you can ever imagine. We are affordable. We are located in all five boroughs and our main office is located in Manhattan. </p>
+
+<br/>
+
+<!--Image of a Gym Dumbbells-->
+<p style="text-align:center"><img src="img1.jpg" width="550" height="350" alt="Picture of dumbbells."/></p>
+
+<br/><br/><br/>
+
+<h2 style="text-align:center;font-size:35px">Motivational Quotes by Celebrities & You</h2>
+
+<!--Some quotes from Celebrities in List-->
+<!--Divided by div-->
+<div style="font-size:22px">
+
+<!--Starting organized list-->
+<ol>
+<li>"Exercise is medicine. It should be prescribed by your doctor and only taken regularly in the dose that works for you." – <i>Bob Harper</i> </li>
+<li>"If you train hard, you'll not only br hard. You'll be hard to beat." - <i>Chris Bumstead</i> </li>
+<li>"The greatest feeling you can get in a gym, or the most satisfying feeling you can get in the gym is… The Pump." - <i>Arnold Schwarzenegger</i> </li>
+<li >Add your <b><i>"OWN QUOTES"</I></b> by telling us.</li>
+</ol>
+</div>
+
+
+<!--Linking(takes to the bottom of the same page for Contact Info)-->
+<p style="text-align:center;font-size:26px"><a href= "#bottom">Click here to see our Contacts</a></p>
+
+<br/><br/>
+
+<!--Improvement section-->
+<h2 style="text-align:center;font-size:35px">Example of Improvements That You Can Make</h2>
+
+<!--Starting the image rollover-->
+<div align = "center">
+<a onMouseOut = "turnNormal()" onMouseOver="turnTransform()">
+<img name="arrow" src="normal.jpg" width="390px" height="430px">
+</a>
+
+<!--Sentence below the image rollover pictures-->
+<p style="font-size:20px"> <i><b>Drag your mouse</b> on the picture above to see how you can change by joining us.</i></p>
+</div>
+
+
+<br/><br/>
+
+
+<!--Time/schedule paragraph-->
+<h2 id="time" style="text-align:center;font-size:35px">We're Open</h2>
+<p style="text-align:center;font-size:25px"> Tanvir's Gym is open for you all <span style="background-color:#A3F0F5"><i>7 DAYS</i></span> a week. We don't disappoint you by closing any day, unless its a holiday.</p>
+
+<!--Time/schedule-->
+<p style="text-align:center;font-size:25px">
+Monday 06:00AM - 01:00AM <br/>
+Tuesday 06:00AM - 01:00AM <br/>
+Wednesday 06:00AM - 01:00AM <br/>
+Thursday 06:00AM - 01:00AM <br/>
+Friday 06:00AM - 01:00AM<br/>
+Saturday 06:00AM - 01:00AM <br/>
+Sunday 06:00AM - 01:00AM <br/>
+<span style="background-color:#F05C57"><i>We are only Closed for few Holidays (will let you know)</i></span><br/>
+</p>
+
+<br/>
+
+<!--Linking(takes to About)-->
+<p style="text-align:center;font-size:25px"><a href= "#about">Go back to Know us</a></p>
+
+<!--Horizontal line-->
+<hr>
+<hr>
+<!--Breaking line-->
+<br/>
+<br/>
+
+<!--Using Linking to connect to other 2 Web Pages-->
+<p style="text-align:center;font-size:24px">
+<a href="form.html">View the Form</a><br/><br/>
+<a href="validation.html">Click here Validate your Form</a>
+</p>
+
+<h3 id="bottom"> </h3>
+
+<!--Contact Information-->
+<p style="font-size:25px"><b>Contact Information:</b></p>
+
+<!--Using Div to devide-->
+<!--Using Linking (mail to) to connect with mail-->
+<div style="font-size:24px">
+<ul style="list-style-type:square;">
+<li>Address: 00th Street and Fifth Avenue, Manhattan, New York - 10001</li>
+<li>Phone: 1234-567-8910</li>
+<!--Using mail to to connect to email-->
+<li>Email us at:<a href="mailto:tanvir.rahman@mail.citytech.cuny.edu"> Click Here </a></li>
+</ul>
+</div>
+
+<!--Linking(takes to the top of page)-->
+<p style="text-align:center;font-size:24px"><a href= "#top">Back to Top</a></p>
+
+<!--ending the body-->
+</body>
+
+</html>
